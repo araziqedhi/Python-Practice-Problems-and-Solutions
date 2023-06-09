@@ -1,0 +1,185 @@
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects
+$ touch .gitignore
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects
+$ git init
+Initialized empty Git repository in E:/Data_Analytics_and_Scrapping_Projects/.git/
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git add .
+warning: in the working copy of 'Amazon_WebScrapper_project/.ipynb_checkpoints/Amazon WebScrapper Project-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Amazon_WebScrapper_project/Amazon WebScrapper Project.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Atliq_Hardware_Sales_Insights/db_dump.sql', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'IPL-Data-Analytics-Project/.ipynb_checkpoints/IPL Data Web Scrapping Project-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'IPL-Data-Analytics-Project/IPL Data Web Scrapping Project.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'IPL-Data-Analytics-Project/Player_Info.csv', LF will be replaced by CRLF the next time Git touches it
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git commit -m "Initial commit"
+[master (root-commit) cbca4a8] Initial commit
+ 51 files changed, 307850 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Amazon_WebScrapper_project/.ipynb_checkpoints/Amazon WebScrapper Project-checkpoint.ipynb
+ create mode 100644 Amazon_WebScrapper_project/Amazon WebScrapper Project.ipynb
+ create mode 100644 Amazon_WebScrapper_project/AmazonWebScrapperDataSet.csv
+ create mode 100644 Atliq_Grands/Atliq_Grands_Powerbi_1st_file.pbix
+ create mode 100644 Atliq_Grands/Atliq_Grands_Powerbi_2nd_file.pbix
+ create mode 100644 Atliq_Grands/Atliq_Grands_Powerbi_final2_file.pbix
+ create mode 100644 Atliq_Grands/Atliq_Grands_Powerbi_final_file.pbix
+ create mode 100644 Atliq_Grands/Input Files/dim_date.csv
+ create mode 100644 Atliq_Grands/Input Files/dim_hotels.csv
+ create mode 100644 Atliq_Grands/Input Files/dim_rooms.csv
+ create mode 100644 Atliq_Grands/Input Files/fact_aggregated_bookings.csv
+ create mode 100644 Atliq_Grands/Input Files/fact_bookings.csv
+ create mode 100644 Atliq_Grands/Input Files/meta_data_hospitality.txt
+ create mode 100644 Atliq_Grands/Input Files/metrics list.xlsx
+ create mode 100644 Atliq_Grands/Input Files/mock up dashboard_atliq grands.png
+ create mode 100644 Atliq_Grands/Screenshot 2023-05-16 130137.png
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/1.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/2.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/3.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/4.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/5.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/6.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/7.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/8.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/9.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboard_design_recordings/Dashboard_design_recordings/Hospitality Project _dashboard_design.mp4
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Dashboarding Tips.pdf
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Helper Document - hospitality.pdf
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/Revenue Insights in Hospitality Domain.pbix
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/dim_date.csv
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/dim_hotels.csv
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/dim_rooms.csv
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/fact_aggregated_bookings.csv
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/fact_bookings.csv
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/meta_data_hospitality.txt
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/metrics list.xlsx
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/mock up dashboard_atliq grands.png
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/stage1_power_query.pbix
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/stage1_power_query_doc.txt
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/stage2_dax_measures.pbix
+ create mode 100644 Atliq_Grands/end-to-end-data-analyst-project-all-files/stage3_visual_creation_demo.pbix
+ create mode 100644 Atliq_Hardware_Sales_Insights/Atliq_hardware_sales_Dashboard.pbix
+ create mode 100644 Atliq_Hardware_Sales_Insights/atliq_hardware_linkdin.png
+ create mode 100644 Atliq_Hardware_Sales_Insights/db_dump.sql
+ create mode 100644 IPL-Data-Analytics-Project/.ipynb_checkpoints/IPL Data Web Scrapping Project-checkpoint.ipynb
+ create mode 100644 IPL-Data-Analytics-Project/IPL Data Web Scrapping Project.ipynb
+ create mode 100644 IPL-Data-Analytics-Project/Match_Results.csv
+ create mode 100644 IPL-Data-Analytics-Project/Player_Info.csv
+ create mode 100644 IPL-Data-Analytics-Project/match_data.csv
+ create mode 100644 Screenshot 2023-05-16 092814.png
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git remote add origin git@github.com:araziqedhi/Data-Analytics-and-Scrapping-Projects.git
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git push origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ ssh-keygen -t ed25519 -C "araziqedhi@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Zbook/.ssh/id_ed25519):
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ (/c/Users/Zbook/.ssh/id_ed25519)
+/c/Users/Zbook/.ssh/id_ed25519: line 1: -----BEGIN: command not found
+/c/Users/Zbook/.ssh/id_ed25519: line 2: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW: command not found
+/c/Users/Zbook/.ssh/id_ed25519: line 3: QyNTUxOQAAACC0PpIKdBsZulMAb7m4k8I1AscHU/BBI0Ki4+MvA7ZhyAAAAJgo0veDKNL3: No such file or directory
+/c/Users/Zbook/.ssh/id_ed25519: line 4: gwAAAAtzc2gtZWQyNTUxOQAAACC0PpIKdBsZulMAb7m4k8I1AscHU/BBI0Ki4+MvA7ZhyA: No such file or directory
+/c/Users/Zbook/.ssh/id_ed25519: line 5: AAAEDzBnzfZWG0ZjVhQ7fAmxmSq1fMdjCMCUQbq1tkDknVDrQ+kgp0Gxm6UwBvubiTwjUC: command not found
+/c/Users/Zbook/.ssh/id_ed25519: line 7: -----END: command not found
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ $ ssh-keygen -t ed25519 -C "araziqedhi@gmail.com"
+bash: $: command not found
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ ssh-keygen -t ed25519 -C "araziqedhi@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Zbook/.ssh/id_ed25519): /c/Users/Zbook/.ssh/id_ed25519
+/c/Users/Zbook/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Zbook/.ssh/id_ed25519
+Your public key has been saved in /c/Users/Zbook/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:zRz3HvypL0UCvH0cEPOD5wdSik415iGZtOQRfJuZlXo araziqedhi@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|         oB+=++. |
+|         o+@.=*. |
+|          *.OOo+.|
+|         * +**E=.|
+|        S =  .B..|
+|             . +o|
+|              o..|
+|             ..  |
+|             .o. |
++----[SHA256]-----+
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ cat /c/Users/Zbook/.ssh/id_ed25519
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACC4J+o8Les+sKohqR9SVIFbmrrNiAW4E5lmUGqaINqInQAAAJixOgt1sToL
+dQAAAAtzc2gtZWQyNTUxOQAAACC4J+o8Les+sKohqR9SVIFbmrrNiAW4E5lmUGqaINqInQ
+AAAEA+WKbRP9BuFV67Y+u/UPBMXChgOguX5P3ygLxm1h9x8bgn6jwt6z6wqiGpH1JUgVua
+us2IBbgTmWZQapog2oidAAAAFGFyYXppcWVkaGlAZ21haWwuY29tAQ==
+-----END OPENSSH PRIVATE KEY-----
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ ^C
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ $ ssh-keygen -t rsa -b 4096 -C "araziqedhi@gmail.com"
+bash: $: command not found
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ ssh-keygen -t rsa -b 4096 -C "araziqedhi@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Zbook/.ssh/id_rsa): /c/Users/Zbook/.ssh/id_rsa
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Zbook/.ssh/id_rsa
+Your public key has been saved in /c/Users/Zbook/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:4YXbKVaZP+gkbHBPLB4cM+I11+mYicwz0aUpKsIRHTM araziqedhi@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|  ..E.. *..o..   |
+|   ..+ +.O.=o    |
+|  .   ooOoX=     |
+| . .   B*%++.    |
+|  o . . So* o    |
+|   . . o =   .   |
+|          .      |
+|                 |
+|                 |
++----[SHA256]-----+
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ cat /c/Users/Zbook/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDW64a2WuJ0Y/5LpYMwdREJqKsSGso30scs3Es+rVfJfAMZ6sYtj1RuzKiQuxmlOstETI46cn1KGAChXAC9RUdhSwn57B8Dv9I4WDx9+5t1Bs7YRxDqFNHheEolugySmEVQa+54u2HF/+13+9M2AAcE97KsdX/8uoBeH0LMLGmpd1Lhh6kzsssu9GjN4nh/mzuflRvMogly9w77HSCZ39iWOVOhPsINiCQVR/S1FW+vHSXTS10PaJhSmJ5A3HXiUFxOxArC2h2GAJbcegzg7Y67J09ybL0byfA8o/t+OylK9L77dDe4b6aN4lhqRcOEoN3jYeHoWcNXBLXuWEWT5tN2uBPU2VTbBULcWX8Y9KBgt1RZbeFbTFSBDlpk/4nbegDhK48H5H7BVUIEzG3lrXYSLd5EYrb5AciKqW6C8Oz0ijQeBy2SncoV9z7KGdKp2ZR1XaUWS5oabN/uEvY8fxydzy5kt9z8QR3V+QMCZv8tThHcECt8kJm/m09b8q8zEvI5QH/1yzJogkUOpqOuiJwSNROC05l187GrjtoopS94F+iL/uDgLjVd15jVl3UuFo9u5xscB0XxL+O6lshoZ0cpAY3XyYFfnVUh58f6lg4JQ/JK8vNuNhJwckdljz8h/hk8kzpd4PCt2F7SqC9b6HvUkF1jUFGwJLMGCrVWse98Zw== araziqedhi@gmail.com
+
+Zbook@DESKTOP-LBFB1N7 MINGW64 /e/Data_Analytics_and_Scrapping_Projects (master)
+$ git push origin master
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (54/54), done.
+Writing objects:  63% (35/55),
